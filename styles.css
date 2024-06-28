@@ -1,0 +1,43 @@
+#navigation{
+    align-items: center;
+    text-align: center;
+    padding-left:30px ;
+    padding-right: 30px;
+    border-radius: 15px;
+    background-color: aqua;
+    height:60px ;
+    width: 60%;
+    flex-direction: row;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+#citySearch{
+    align-items: flex-start;
+    text-align: center;
+    height: 40px;
+    width: 40%;
+
+}
+#search{
+    height: 20px;
+    width: 80px;
+    text-align: center;
+    padding: auto;
+   
+   
+}
+.card{
+    align-items: center;
+    text-align: center;
+    background-color: darkseagreen;
+    width: 30%;
+    height: auto;
+    border-radius: 20px;
+    padding-bottom:20px;
+    padding-top: 20px;
+}
