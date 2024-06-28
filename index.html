@@ -23,11 +23,12 @@
         <div class="container">
             <label for="City">Digite a cidade</label>
             <input type="search" name="City" id="citySearch">
-            <button id="search">Procurar</button>
+            <button type="button" onclick="obterTemperatura ()" id="search">Temp °C</button>
             <div class="card">
-                <img src="https://www.climate.gov/sites/default/files/styles/medium/public/201">
-                <h1>Temperature</h1>
-                <h3>City</h3>
+                <img src="images/weather.png" id="photo">
+                <a href="https://www.flaticon.com/free-icons/cloudy-day" title="cloudy day icons">Cloudy day icons created by Gajah Mada - Flaticon</a>
+                <h1 id="temp">*</h1>
+                <h3 id="citySearch">*</h3>
                 <h4>Condition</h4>
             </div>
         </div>
